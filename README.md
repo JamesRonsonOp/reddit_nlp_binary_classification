@@ -19,7 +19,7 @@ https://www.linkedin.com/company/constellation-brands/
 * https://www.reuters.com/companies/STZ
 
 
-To conduct this preliminary analysis I will used Reddit data scraped from the r/Homebrewing and r/Winemaking Subreddits. I cleaned the data for use in natural language preprocessing, exploratory data analysis, key insight creation, visualization creation and then finally conducted predictive modeling to determine whether my insights are gleaned from truly distinguisable characteristics.
+To conduct this preliminary analysis I will use Reddit data scraped from the r/Homebrewing and r/Winemaking Subreddits. I cleaned the data for use in natural language preprocessing, exploratory data analysis, key insight creation, visualization creation and then finally implemented predictive modeling to determine whether my insights are gleaned from truly distinguisable characteristics.
 
 The production model is the VotingClassifier() model fit with Support Vector Classifier, Ada Boost Classifier, Random Forest Classifier and Logistic Regression Classifier as the estimator hyperparameters. The production model was vectorized with a TFIDF Vectorizer with hyperparameters of Max_df = .08, Max_features = 300, ngram_range = (1,2) and stop_words = 'english'. 
 
